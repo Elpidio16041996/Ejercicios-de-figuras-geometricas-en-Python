@@ -1,0 +1,18 @@
+from turtle import *
+setup(450, 200, 0, 0)
+screensize(300, 150)
+title("Programa Rombo")
+hideturtle()
+
+pensize(5)
+fillcolor("red")
+begin_fill()
+forward(130)
+left(67)
+forward(130)
+left(113)
+forward(130)
+left(67)
+forward(130)
+left(113)
+end_fill()
